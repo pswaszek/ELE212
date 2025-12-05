@@ -1,0 +1,659 @@
+<title>
+ELE 212 Linear Circuit Theory
+</title>
+
+<meta name="viewport" content="width=device-width" /> 
+
+<img src="im212.jpg" width = "300">
+
+<p>
+Kirchhoff's Laws, DC-resistive networks, dependent sources, natural and forced 
+response of first- and second-order circuits, sinusoidal steady-state response, 
+phasors, AC power. (Lecture, 4 credits) 
+
+<p>
+This course is usually taken concurrently with 
+	<a href="http://www.ele.uri.edu/%7Eswaszek/ele215">ELE 215</a>  
+	Linear Circuits Laboratory. 
+ 
+<p>
+
+<HR width="100%" align="left">
+
+
+<b> <font color = red> NOTICES: 
+<ul>
+<li> Oct 1, 2025 - THE INFORMATION HERE IS ONLY TENTATIVE AND
+	MAY CHANGE BEFORE JAN OF 2026 
+</ul> 
+</font> </b><br>
+
+<p>
+
+<HR width="100%" align="left">
+
+<o>
+
+<b>
+Basic information for Spring 2026:
+</b>
+
+<p>
+
+<ul>
+<li> Instructor: <a href="mailto:swaszek@uri.edu">Prof. Peter F. Swaszek</a>,
+	 492 Fascitelli Center <br>
+	 Office hours: face-to-face Mon and Fri 10:00-10:50 or by appointment; virtual by appointment only  <br>
+	 <br>
+	
+<li> Lectures: 
+	<ul>
+	<li> Mon, Wed, and Fri 9:00-9:50 AM, Kirk Aud. 
+	<li> Mon 2-2:50 PM, Edwards Aud. (weekly assessment period)
+	</ul> <br> 
+
+<li> Text: <b> Fundamentals of Electric Circuit </b> 
+	 by Alexander and Sadiku, McGraw-Hill, 5th ed. or equiv. (chapters 1 through 11 plus 14) <br>
+	 <br>
+	 
+<li> Scientific calculator for quizzes - NO phones, tablets, or computers allowed. <br>
+	 <br>
+	 
+<li> Grading scheme: 
+	 <ul>
+	 <li> 39 online homeworks plus 10 online exercises (total of 5000 points);
+	     there are also 2 exctra creidt problems (totalling 400 points) that 
+	     can increase your score to a max of 5000 - 20%
+	 <li> 15 weekly quizes (including two on the final exam day) - 80% 
+	 </ul>
+	 <br>
+	 
+<li> On-line homework: 
+	<ul> 
+	<li> When the web page asks for your "Homework ID" enter the 9 digit number 
+		posted in the Brightspace gradebook (no commas), NOT your URI ID; also see
+		<a href="hw.pdf" target="_blank">here</a> for more details including FAQs
+	<li> Use 3 significant digits for each answer unless stated otherwise; see 
+		<a href="sigfigs.pdf" target="_blank">here</a> if you need more help
+	<li> Include standard units unless stated otherwise
+	</ul>
+	<br>
+	 
+<li> Useful links: 
+	<ul>
+	<li> <a href="errata.pdf" target="_blank">Textbook errata</a> for 5th edition
+		of  Alexander and Sadiku; search online if you have a different version or 
+		other text. 
+	<li> <a href="syllabus26.pdf" target="_blank">Syllabus for spring 2026</a>
+		THIS NEEDS UPDATING **********************************************
+	<li> <a href="genURIsyllabus.pdf" target="_blank">Generic URI syllabus</a>
+	</ul> 
+	<br>
+
+</ul>
+
+<p> 
+ 
+<HR width="100%" align="left">
+
+<p>
+
+<b>
+Daily materials and homeworks; additional material:
+</b>
+
+<p>
+
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<body>
+
+<table>
+
+<tr>
+    <td> </td>
+    <td><b><font color = red>Monday</font></b> </td>
+    <td><b><font color = red>Wednesday</font></b> </td>
+    <td><b><font color = red>Friday</font> </td>
+</tr>
+
+<tr>
+    <td> Week 1</td>
+    <td bgcolor= "lightgray"> Jan 20 
+    	</td>
+    <td><b>Wed Jan 21 - Lecture 1</b> <br> 
+    	Basics 1: administrivia; circuit variables (A&S chap 1)<br> 
+    	<a href="limitedaccess/slides/A_1.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/A_1x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz001.php" target="_blank">
+			HW 1</a> on basics - due 8:55 AM Fri Jan 23    <br> 	
+		</td>
+    <td><b>Fri Jan 23 - Lecture 2</b> <br> 
+    	Basics 2: time variation; sources; resistors (A&S chap 1)<br> 
+    	<a href="limitedaccess/slides/A_2.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/A_2x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz002.php" target="_blank">
+			HW 2</a> on basics - due 8:55 AM Mon Jan 26 
+		</td>
+</tr>
+
+<tr>
+    <td> Week 2 </td>
+    <td><b>Mon Jan 26 - Lecture 3</b> <br> 
+    	Basics 3: circuits; Kirchhoff (A&S chap 1 & 2)<br> 
+    	<a href="limitedaccess/slides/A_3.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/A_3x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz003.php" target="_blank">
+			HW 3</a> on basics - due 8:55 AM Wed Jan 28 
+		</td>
+    <td><b>Wed Jan 28 - Lecture 4 </b> <br> 
+    	Basics 4: series/parallel resistance; voltage/current divison (A&S chap 2)<br> 
+    	<a href="limitedaccess/slides/A_4.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/A_4x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz004.php" target="_blank">
+			HW 4</a> on basics - due 8:55 AM Fri Jan 30 
+		</td>
+    <td><b>Fri Jan 30 - Lecture 5</b> <br> 
+    	Basics 5: equivalent resistance (A&S chap 2)<br>  
+    	<a href="limitedaccess/slides/A_5.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/A_5x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz005.php" target="_blank">
+			HW 5</a> on basics - due 8:55 AM Mon Feb 2 <br>
+		    <br>
+        Outside Topic - solving simultaneous equations: <br>
+	        &nbsp; &nbsp; &nbsp;   
+		<a href="limitedaccess/support/App_A.pdf" target="_blank">Written material</a> 
+		<br>
+	        &nbsp; &nbsp; &nbsp;   
+		<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz201.php" target="_blank">
+			Exercuse 1</a> 
+		    and 
+		    <a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz202.php" target="_blank">
+			Exercise 2</a>, both due 8:55 AM Fri Feb 6 
+	</td>
+</tr>
+			
+<tr>
+    <td> Week 3 </td>
+    <td><b>Mon Feb 2 - Lecture 6</b> <br> 
+    	Basics 6: circuit analysis; dependent sources (A&S chap 2)<br>  
+    	<a href="limitedaccess/slides/A_6.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/A_6x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz006.php" target="_blank">
+			HW 6</a> on basics - due 8:55 AM Wed Feb 4 <br>
+    <br>
+    Outside Topic - Delta-Wye transformations:
+          <br>
+	        &nbsp; &nbsp; &nbsp;   
+		<a href="limitedaccess/support/DeltaWye.pdf" target="_blank">Written material</a>
+		<br>
+	        &nbsp; &nbsp; &nbsp;   
+		<a href="limitedaccess/support/DeltaWye.mp4" target="_blank">Recorded mini-lecture</a>
+		<br>
+	        &nbsp; &nbsp; &nbsp;   
+		<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz203.php" target="_blank">
+			Exercise 3</a> on Delta-Wye (200 pts) - due 8:55 AM Wed Feb 18 
+		</td>
+    <td><b>Wed Feb 4 - Lecture 7</b> <br> 
+    	Basics 7: odds and ends (A&S chap 2)<br>  
+    	<a href="limitedaccess/slides/A_7.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/A_7x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz007.php" target="_blank">
+			HW 7</a> on basics - due 8:55 AM Fri Feb 6 
+		</td>
+    <td><b>Fri Feb 6 - Lecture 8</b> <br> 
+    	Node 1: basic comcepts (A&S chap 3)<br>  
+    	<a href="limitedaccess/slides/B_1.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/B_1x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz008.php" target="_blank">
+			HW 8</a> on nodes - due 8:55 AM Mon Feb 9 
+		</td>
+</tr>
+
+<tr>
+    <td> Week 4 </td>
+    <td><b>Mon Feb 9 - Lecture 9</b> <br> 
+    	Node 2: more complex branches (A&S chap 3)<br>   
+    	<a href="limitedaccess/slides/B_2.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/B_2x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz009.php" target="_blank">
+			HW 9</a> on nodes - due 8:55 AM Wed Feb 11 
+		</td>
+    <td><b>Wed Feb 11 - Lecture 10</b> <br> 
+    	Node 3: vector/matrix form (A&S chap 3)<br>   
+    	<a href="limitedaccess/slides/B_3.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/B_3x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz010.php" target="_blank">
+			HW 10</a> on nodes - due 8:55 AM Fri Feb 13 
+		</td>
+    <td><b>Fri Feb 13 - Lecture 11</b> <br> 
+    	Node 4: dependent sources (A&S chap 3)<br>   
+    	<a href="limitedaccess/slides/B_4.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/B_4x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz011.php" target="_blank">
+			HW 11</a> on nodes - due 8:55 AM Wed Feb 18 <br>
+        <br>
+	Outside Topic - complex number manipulation: 
+        <br>
+        &nbsp; &nbsp; &nbsp;   
+	<a href="limitedaccess/support/App_B.pdf" target="_blank">Written material</a> on
+			complex numbers 
+        <br>
+        &nbsp; &nbsp; &nbsp;   
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz204.php" target="_blank">Exercise 4</a>,
+		<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz205.php" target="_blank">Exercise 5</a>,
+		<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz206.php" target="_blank">Exercise 6</a>,
+		<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz207.php" target="_blank">Exercise 7</a>,
+		<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz208.php" target="_blank">Exercise 8</a>,
+        <br>
+        &nbsp; &nbsp; &nbsp;   
+		<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz209.php" target="_blank">Exercise 9</a>, 
+		<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz210.php" target="_blank">Exercise 10</a>;
+		all due 8:55 AM Wed Feb 25 <br>
+		</td>
+</tr>
+
+<tr>
+    <td> Week 5 </td>
+	<td bgcolor= "lightgray"> Feb 16 <br> holiday 
+		</td>
+    <td><b>Wed Feb 18 - Lecture 12</b> <br> 
+    	Node 5: supernodes (A&S chap 3)<br>   
+    	<a href="limitedaccess/slides/B_5.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/B_5x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz012.php" target="_blank">
+			HW 12</a> on nodes - due 8:55 AM Fri Feb 20 
+		</td>
+    <td><b>Fri Feb 20 - Lecture 13</b> <br> 
+    	Node 6: examples (A&S chap 3)<br>   
+    	<a href="limitedaccess/slides/B_6.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/B_6x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz013.php" target="_blank">
+			HW 13</a> on nodes 
+			- due 8:55 AM Mon Feb 23 <br>
+		</td>
+</tr>
+
+<tr>
+    <td> Week 6 </td>
+    <td><b>Mon Feb 23 - Lecture 14</b> <br> 
+    	Node 7: op amp example (A&S chap 5)<br>   
+    	<a href="limitedaccess/slides/B_7.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/B_7x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz014.php" target="_blank">
+			HW 14</a> on op amps - due 8:55 AM Wed Feb 25 
+		</td>
+    <td><b>Wed Feb 25 - Lecture 15</b> <br> 
+    	Phasors 1: introducing L and C (A&S chap 6)<br>   
+    	<a href="limitedaccess/slides/C_1.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/C_1x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz015.php" target="_blank">
+			HW 15</a> on phasors - due 8:55 AM Fri Feb 27 
+		</td>
+    <td><b>Fri Feb 27 - Lecture 16</b> <br> 
+     	Phasors 2: RLC circuits (A&S chap 9)<br>   
+    	<a href="limitedaccess/slides/C_2.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/C_2x.pdf" target="_blank">annotated copy</a> <br> 
+		<a href="limitedaccess/support/details_phasors_2.pdf" target="_blank">Detailed explanation</a> <br>
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz016.php" target="_blank">
+			HW 16</a> on phasors - due 8:55 AM Mon Mar 2 
+		</td>
+</tr>
+
+<tr>
+    <td> Week 7 </td>
+    <td><b>Mon Mar 2 - Lecture 17</b> <br> 
+		Phasors 3: how phasors help (A&S chap 9 & 10)<br>   
+    	<a href="limitedaccess/slides/C_3.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/C_3x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz017.php" target="_blank">
+    		HW 17</a> on phasors - due 8:55 AM Wed Mar 4 
+		</td>
+    <td><b>Wed Mar 4 - Lecture 18</b> <br> 
+		Phasors 4: how to use them (A&S chap 9 & 10) <br>
+    	<a href="limitedaccess/slides/C_4.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/C_4x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz018.php" target="_blank">
+    		HW 18</a> on phasors - due 8:55 AM Fri Mar 6     	
+		</td>
+    <td><b>Fri Mar 6 - Lecture 19</b> <br> 
+    	Phasors 5: examples (A&S chap 10) <br>
+    	<a href="limitedaccess/slides/C_5.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/C_5x.pdf" target="_blank">annotated copy</a> <br>  
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz019.php" target="_blank">
+			HW 19</a> on phasors - due 8:55 AM Mon Mar 9 
+		</td>
+</tr>
+
+<tr>
+    <td> Week 8 </td>
+    <td><b>Mon Mar 9 - Lecture 20</b> <br> 
+    	Phasors 6: more examples (A&S chap 10) <br> 
+    	<a href="limitedaccess/slides/C_6.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/C_6x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz020.php" target="_blank">
+			HW 20</a> on phasors - due 8:55 AM Wed Mar 11 
+		</td>
+    <td><b>Wed Mar 11 - Lecture 21</b> <br> 
+    	Phasors 7: AC power (A&S chap 11) <br> 
+    	<a href="limitedaccess/slides/C_7.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/C_7x.pdf" target="_blank">annotated copy</a> <br>
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz021.php" target="_blank">
+			HW 21</a> on phasors - due 8:55 AM Fri Mar 13 
+		</td>
+    <td><b>Fri Mar 13 - Lecture 22</b> <br> 
+    	Phasors 8: power; circuit design <br> 
+    	<a href="limitedaccess/slides/C_8.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/C_8x.pdf" target="_blank">annotated copy</a> <br>
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz022.php" target="_blank">
+			HW 22</a> on phasors - due 8:55 AM Mon Mar 23 
+		</td>
+</tr>
+
+<tr>
+    <td>  </td>
+	<td bgcolor= "lightgray" COLSPAN="3"> Mar 16, 18, 20 <br> spring break 
+		</td>
+</tr>
+
+
+<tr>
+    <td> Week 9 </td>
+    <td><b>Mon Mar 23 - Lecture 23</b> <br> 
+    	Phasors 9: circuit design <br> 
+    	<a href="limitedaccess/slides/C_8.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/C_8x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz023.php" target="_blank">
+			HW 23</a> on power - due 8:55 AM Wed Mar 25 
+		</td>
+    <td><b>Wed Mar 25 - Lecture 24</b> <br> 
+    	Theorems 1: superposition and transformations (A&S chap 4) <br>  
+    	<a href="limitedaccess/slides/D_1.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/D_1x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz024.php" target="_blank">
+			HW 24</a> on theorems - due 8:55 AM Fri Mar 27 
+		</td>	
+    <td><b>Fri Mar 27 - Lecture 25</b> <br> 
+    	Theorems 2:  Thevenin (A&S chap 4)  <br> 
+    	<a href="limitedaccess/slides/D_2.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/D_2x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz025.php" target="_blank">
+			HW 25</a> on Thevenin - due 8:55 AM Mon Mar 30 <br>
+
+		    <br>
+		    <a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz901.php" target="_blank">
+			Extra Credit phasor homework (worth 200 pts) </a> - due 11:59 PM Sun Apr 12
+		</td>
+</tr>
+
+<tr>
+    <td> Week 10 </td>
+    <td><b>Mon Mar 30 - Lecture 26</b> <br> 
+    	Theorems 3: more Thevenin <br>  
+    	<a href="limitedaccess/slides/D_3.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/D_3x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz026.php" target="_blank">
+			HW 26</a> on Thevenin - due 8:55 AM Wed Apr 1 
+		</td>
+    <td><b>Wed Apr 1 - Lecture 27</b> <br> 
+    	Theorems 4: maximum power(A&S chap 4) <br> 
+    	<a href="limitedaccess/slides/D_4.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/D_4x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz027.php" target="_blank">
+			HW 27</a> on max power - due 8:55 AM Fri Apr 3 
+		</td>
+    <td><b>Fri Apr 3 - Lecture 28</b> <br> 
+    	Theorems 5: AC Thevenin (A&S chap 4) <br>  
+    	<a href="limitedaccess/slides/D_5.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/D_5x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz028.php" target="_blank">
+			HW 28</a> on Thevenin - due 8:55 AM Mon Apr 6 
+		</td>
+</tr>
+
+<tr>
+    <td> Week 11 </td>
+    <td><b>Mon Apr 6 - Lecture 29</b> <br> 
+    	Theorems 6: maximum AC power (A&S chap 4) <br>  
+    	<a href="limitedaccess/slides/D_6.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/D_6x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz029.php" target="_blank">
+			HW 29</a> on max AC power - due 8:55 AM Wed Apr 8 
+		</td>
+    <td><b>Wed Apr 8 - Lecture 30</b> <br> 
+    	1st order 1: concepts (A&S chap 7) <br>   
+    	<a href="limitedaccess/slides/F_1.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/F_1x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz030.php" target="_blank">
+			HW 30</a> on theorems - due 8:55 AM Fri Apr 10 
+		</td>
+    <td><b>Fri Apr 10 - Lecture 31</b> <br> 
+    	1st order 2: general solution (A&S chap 7) <br>  
+    	<a href="limitedaccess/slides/F_2.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/F_2x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz031.php" target="_blank">
+			HW 31</a> on transients - due 8:55 AM Mon Apr 13 
+		</td>
+</tr>
+
+<tr>
+    <td> Week 12 </td>
+    <td><b>Mon Apr 13 - Lecture 32</b> <br> 
+    	1st order 3: examples (A&S chap 7) <br>   
+    	<a href="limitedaccess/slides/F_3.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/F_3x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz032.php" target="_blank">
+			HW 32</a> on transients - due 8:55 AM Wed Apr 15 
+		</td>
+    <td><b>Wed Apr 15 - Lecture 33</b> <br> 
+    	1st order 4: other variables (A&S chap 7) <br>  
+    	<a href="limitedaccess/slides/F_4.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/F_4x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz033.php" target="_blank">
+			HW 33</a> on transients - due 8:55 AM Fri Apr 17 
+		</td>
+    <td><b>Fri Apr 17 - Lecture 34</b> <br> 
+    	1st order 5: more examples (A&S chap 7) <br>  
+    	<a href="limitedaccess/slides/F_5.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/F_5x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz034.php" target="_blank">
+			HW 34</a> on transients - due 8:55 AM Mon Apr 20 
+		</td>
+</tr>
+
+<tr>
+    <td> Week 13 </td>
+    <td><b>Mon Apr 20 - Lecture 35</b> <br> 
+    	2nd order 1: concepts (A&S chap 8) <br> 
+    	<a href="limitedaccess/slides/G_1.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/G_1x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz035.php" target="_blank">
+			HW 35</a> on transients - due 8:55 AM Wed Apr 22 
+		</td>
+    <td><b>Wed Apr 22 - Lecture 36</b> <br> 
+    	2nd order 2: initial conditions (A&S chap 8) <br>  
+    	<a href="limitedaccess/slides/G_2.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/G_2x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz036.php" target="_blank">
+			HW 36</a> on transients - due 8:55 AM Fri Apr 24 
+		</td>
+    <td><b>Fri Apr 24 - Lecture 37</b> <br> 
+    	2nd order 3: full solution (A&S chap 8) <br>  
+    	<a href="limitedaccess/slides/G_3.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/G_3x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz037.php" target="_blank">
+			HW 37</a> on transients - due 8:55 AM Mon Apr 27 
+		</td>
+</tr>
+
+<tr>
+    <td> Week 14 </td>
+    <td><b>Mon Apr 27 - Lecture 38</b> <br> 
+    	2nd order 4: examples (A&S chap 8) <br> 
+    	<a href="limitedaccess/slides/G_4.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/G_4x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz038.php" target="_blank">
+			HW 38</a> on transients - due 8:55 AM Wed Apr 29 <br>
+		    <br>
+
+		<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz902.php" target="_blank">
+			Extra Credit 2nd order homework (worth 200 pts) </a> - due 11:59 PM Fri May 1
+		</td>
+    <td><b>Wed Apr 29 - Lecture 39</b> <br> 
+    	Mesh: concept and examples (A&S chap 4) <br> 
+    	<a href="limitedaccess/slides/H_1.pdf" target="_blank">Lecture slides</a>,
+		<a href="limitedaccess/markedslides/H_1x.pdf" target="_blank">annotated copy</a> <br> 
+    	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz039.php" target="_blank">
+			HW 39</a> on mesh - due 11:59 PM Fri May 1 
+		</td>
+    <td bgcolor= "lightgray"> May 1 
+    	</td>
+</tr>
+
+</table>
+
+<p>
+
+<HR width="100%" align="left">
+
+<p>
+
+<b> 
+Late homework links 
+</b> 
+- 38 regular daily problems only (not the last one) 
+- all due by 11:59 PM on Friday May 1
+
+<p>
+
+<ul style="column-count:5">
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz101.php" target="_blank">
+			HW 1</a>
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz102.php" target="_blank">
+			HW 2</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz103.php" target="_blank">
+			HW 3</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz104.php" target="_blank">
+			HW 4</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz105.php" target="_blank">
+			HW 5</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz106.php" target="_blank">
+			HW 6</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz107.php" target="_blank">
+			HW 7</a>
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz108.php" target="_blank">
+			HW 8</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz109.php" target="_blank">
+			HW 9</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz110.php" target="_blank">
+			HW 10</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz111.php" target="_blank">
+			HW 11</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz112.php" target="_blank">
+			HW 12</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz113.php" target="_blank">
+			HW 13</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz114.php" target="_blank">
+			HW 14</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz115.php" target="_blank">
+			HW 15</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz116.php" target="_blank">
+			HW 16</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz117.php" target="_blank">
+			HW 17</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz118.php" target="_blank">
+			HW 18</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz119.php" target="_blank">
+			HW 19</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz120.php" target="_blank">
+			HW 20</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz121.php" target="_blank">
+			HW 21</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz122.php" target="_blank">
+			HW 22</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz123.php" target="_blank">
+			HW 23</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz124.php" target="_blank">
+			HW 24</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz125.php" target="_blank">
+			HW 25</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz126.php" target="_blank">
+			HW 26</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz127.php" target="_blank">
+			HW 27</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz128.php" target="_blank">
+			HW 28</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz129.php" target="_blank">
+			HW 29</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz130.php" target="_blank">
+			HW 30</a>
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz131.php" target="_blank">
+			HW 31</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz132.php" target="_blank">
+			HW 32</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz133.php" target="_blank">
+			HW 33</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz134.php" target="_blank">
+			HW 34</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz135.php" target="_blank">
+			HW 35</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz136.php" target="_blank">
+			HW 36</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz137.php" target="_blank">
+			HW 37</a> 
+<li>
+	<a href="https://www.ele.uri.edu/~swaszek/ele212/quiz/quiz138.php" target="_blank">
+			HW 38</a>  
+</ul>
+
+<p>
+
+<HR width="100%" align="left">
+
+<p>
+
+<img src="im212.jpg" width = "300">
+
+
